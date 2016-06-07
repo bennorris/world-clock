@@ -1,0 +1,84 @@
+body {
+  background-color: #B0BEC5;
+}
+#nycBackground {
+  background-color: #E65100;
+  margin: 0;
+}
+
+.clockStyling {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cityBox{
+  text-align: center;
+ margin-top: 10%;
+  
+}
+h1 { color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+#hkiBackground {
+  background-color: #1A237E;
+  margin: 0;
+}
+
+#helsinkiBox {
+  text-align: center; 
+  margin-top: 10%;
+}
+
+#tokyoBackground {
+  background-color: #66BB6A;
+  margin: 0;
+}
+
+
+#wellingtonBackground {
+  background-color: #FFEA00;
+  margin: 0;
+}
+
+#worldTime {
+  background-color: #DD2C00;
+  text-align: center;
+}
+
+#clockSpin {   
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+#globeSpin {   
+    animation-name: spinCounter;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spinCounter {
+    from {
+        transform:rotate(360deg);
+    }
+    to {
+        transform:rotate(0deg);
+    }
+}
